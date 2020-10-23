@@ -1,4 +1,10 @@
-setlocale(0, "");
+#include <iostream>
+
+using naamespace std;
+
+int main()
+{
+	setlocale(0, "");
 	int a, k;
 	int bin = 0, kek = 1;
 	long long int result;
@@ -45,3 +51,4 @@ setlocale(0, "");
 	
 	cout << "________" << endl;
 	cout << result << endl;
+}
